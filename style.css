@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.nav{
+    width: 100%;
+    position: absolute;
+    top: 10px;
+
+}
+.container{
+    margin: -195px auto;
+}
+.eshak{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;
+    z-index: -200;
+}
+.nav ul{
+    width: 100%;
+    height: 100px;    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-weight: 700;
+}
+.nav ul li{
+    font-size: 15px;
+    color: white;
+    gap: 0px;
+}
+.poslediy{
+    width: 520px;
+    height: 182.5px; 
+    color: white;
+    position: relative;
+    top: -380px;
+    left: 50px;
+}
+.poslediy p{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 17.19px;
+    line-height: 38px;
+    letter-spacing: 0%;   
+    margin-bottom: 5px; 
+    margin: 5px 0px;
+}
+.poslediy h2{
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 41.06px;
+    line-height: 48px;
+    letter-spacing: 0%;    
+}
+.poslediy button{
+    width: 130px;
+    height: 50px;
+    border-width: 2px; 
+    border-radius: 20px;   
+}
+.poslediy button:hover{
+    color: aliceblue;
+    background-color: black;
+    cursor: pointer;
+    transition: 2s;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+}
+.footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
